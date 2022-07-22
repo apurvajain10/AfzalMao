@@ -3,6 +3,7 @@ import 'package:afzal_mao/utils/dimensions.dart';
 import 'package:afzal_mao/widgets/app_column.dart';
 import 'package:afzal_mao/widgets/app_icon.dart';
 import 'package:afzal_mao/widgets/big_text.dart';
+import 'package:afzal_mao/widgets/expandable_text_widget.dart';
 import 'package:afzal_mao/widgets/icon_and_text_widget.dart';
 import 'package:afzal_mao/widgets/small_text.dart';
 import 'package:flutter/cupertino.dart';
@@ -17,6 +18,7 @@ class PopularFoodDetail extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
+          //background Image
           Positioned(
               left : 0,
               right: 0,
@@ -33,6 +35,7 @@ class PopularFoodDetail extends StatelessWidget {
                 ),
 
           )),
+          //Icon Widgets
           Positioned(
              left: Dimensions.width20,
             right: Dimensions.width20,
@@ -44,6 +47,7 @@ class PopularFoodDetail extends StatelessWidget {
               ],
             ),
           ),
+          //Introduction of Food
           Positioned(
             left: 0,
               right: 0,
@@ -62,12 +66,28 @@ class PopularFoodDetail extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                AppColumn(text:"Indian Food"),
+                AppColumn(text:"Shahi Paneer"),
                 SizedBox(height: Dimensions.height20,),
                 BigText(text: "Introduce"),
+                SizedBox(height: Dimensions.height20,),
+                Expanded( // SingleChildScrollView does not work alone inside a column. you need to wrap it around another widget
+                  child: SingleChildScrollView( // to make it scroallable
+                    child: ExpandableTextWidget(text: "Shahi paneer is a Mughlai dish where paneer is cooked in a creamy gravy made of onions, yogurt, "
+                        "nut and seeds. As the name suggests, Shahi Paneer literally means Paneer for the royalty. So it is cooked with ingredients that "
+                        "impart a richness to the dish like yogurt, cream, nuts and seeds.This is one of the few vegetarian recipes you’ll find in the "
+                        "traditional Mughlai cuisine other than desserts which brings us to a popular and rich regional cuisine made popular by restaurants "
+                        "across India. Shahi paneer is a Mughlai dish where paneer is cooked in a creamy gravy made of onions, yogurt, "
+                        "nut and seeds. As the name suggests, Shahi Paneer literally means Paneer for the royalty. So it is cooked with ingredients that "
+                        "impart a richness to the dish like yogurt, cream, nuts and seeds.This is one of the few vegetarian recipes you’ll find in the "
+                        "traditional Mughlai cuisine other than desserts which brings us to a popular and rich regional cuisine made popular by restaurants "
+                        "across India. "),
+                  ),
+                )
               ],
             ),
           ))
+          //Expandabe Text Widget
+
         ],
       ),
       bottomNavigationBar: Container(
