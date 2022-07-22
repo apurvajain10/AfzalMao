@@ -1,5 +1,6 @@
 import 'package:afzal_mao/pages/food/popular_food_detail.dart';
 import 'package:afzal_mao/pages/food/recommended_food_detail.dart';
+import 'package:afzal_mao/pages/home/food_page_body.dart';
 import 'package:afzal_mao/pages/home/main_food_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
