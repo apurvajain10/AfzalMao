@@ -28,7 +28,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
-                      children: [BigText(text:"India",color:AppColors.mainColor),
+                      children: [BigText(text:"India",color:AppColors.bluegray),
                         Row(
                           children: [SmallText(text:"Mumbai",color:Colors.black54,),
                             Icon(Icons.arrow_drop_down_rounded)
@@ -45,7 +45,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                         child: Icon(Icons.search,color:Colors.white,size:Dimensions.iconSize24),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(Dimensions.radius15),
-                          color: AppColors.mainColor,
+                          color: AppColors.paraColor,
                         ),
                       ),
                     )

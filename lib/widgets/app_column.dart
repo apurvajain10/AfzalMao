@@ -25,7 +25,7 @@ class AppColumn extends StatelessWidget {
                   5,
                       (index) => Icon(
                     Icons.star,
-                    color: AppColors.mainColor,
+                    color: AppColors.paraColor,
                     size: 15,
                   ),
                 )),
@@ -54,11 +54,11 @@ class AppColumn extends StatelessWidget {
             IconAndTextWidget(
                 icon: Icons.circle_sharp,
                 text: "Normal",
-                iconColor: AppColors.iconColor1),
+                iconColor: AppColors.blueShade),
             IconAndTextWidget(
                 icon: Icons.location_on,
                 text: "3.8Km",
-                iconColor: AppColors.mainColor),
+                iconColor: AppColors.titleColor),
             IconAndTextWidget(
                 icon: Icons.access_time_rounded,
                 text: "40min",
