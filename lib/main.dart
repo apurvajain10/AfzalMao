@@ -1,5 +1,6 @@
 import 'package:afzal_mao/controllers/popular_product_controller.dart';
 import 'package:afzal_mao/controllers/recommended_product_controller.dart';
+import 'package:afzal_mao/pages/cart/cart_page.dart';
 import 'package:afzal_mao/pages/food/popular_food_detail.dart';
 import 'package:afzal_mao/pages/food/recommended_food_detail.dart';
 import 'package:afzal_mao/pages/home/food_page_body.dart';
