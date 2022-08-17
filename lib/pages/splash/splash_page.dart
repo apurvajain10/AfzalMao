@@ -6,9 +6,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-
 import '../../controllers/popular_product_controller.dart';
 import '../../controllers/recommended_product_controller.dart';
+import '../../utils/dimensions.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -22,15 +22,15 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   late Animation<double> animation;
   late AnimationController controller;
 
-  Future<void> _loadResources() async {
+  Future<void> _loadResource() async {
     await Get.find<PopularProductController>().getPopularProductList();
     await Get.find<RecommendedProductController>().getRecommendedProductList();
-
   }
 
   @override
   void initState(){
     super.initState();
+    _loadResource();
     controller = new AnimationController(vsync: this,
         duration: Duration(seconds: 2) )..forward();
     animation= new CurvedAnimation(
@@ -51,8 +51,8 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ScaleTransition(scale: animation,
-              child: Center(child: Image.asset("assets/image/logo1.png", width: 250))),
-          //Center(child: Image.asset("assets/image/logo part 2.png", width: 250))
+              child: Center(child: Image.asset("assets/image/logo1.png", width: Dimensions.splashImg))),
+          //Center(child: Image.asset("assets/image/logo part 2.png", width: Dimensions.splashImg))
 
         ],
       )
