@@ -6,6 +6,7 @@ import 'package:afzal_mao/data/repository/recommended_product_repo.dart';
 import 'package:afzal_mao/utils/constants.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 import '../controllers/recommended_product_controller.dart';
 import '../data/api/api_client.dart';
 Future<void> init()async {
