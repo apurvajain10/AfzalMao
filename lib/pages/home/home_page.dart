@@ -2,6 +2,8 @@ import 'package:afzal_mao/pages/home/main_food_page.dart';
 import 'package:afzal_mao/utils/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../cart/cart_history.dart';
 //import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   List pages=[
     MainFoodPage(),
     Container(child: Center(child: Text("Next Page"),),),
-    Container(child: Center(child: Text("Next next Page"),),),
+    CartHistory(),
     Container(child: Center(child: Text("Next next next Page"),),),
   ];
   void onTapNav(int index){
