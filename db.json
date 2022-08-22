@@ -1,0 +1,79 @@
+{
+  "total_size": 6,
+  "type_id": 2,
+  "offset": 0,
+  "products": [
+      {
+          "id": 1,
+          "name": "Kepsa",
+          "description": " Kepsa at Afzal Mao is a splash of flavours and an experience that would linger in your senses for a long time.",
+          "price": 12,
+          "stars": 4,
+          "img": "https://afzalmao.com/img/promotions/kepsa.jpg",
+          "location": "Canada, British Columbia",
+          "created_at": "2021-11-17 10:09:08",
+          "updated_at": "2022-05-16 11:48:53",
+          "type_id": 2
+      },
+      {
+          "id": 2,
+          "name": "Custard",
+          "description": "The best sweet dessertThe quality and craftsmanship is on full show. The waiters  signature white tunics are of loosely rumpled linen here versus the crisp whites of the city. The thick galleria walls of the restaurant s three distinct areas are cast in gentle neon so that even your worst wine-fuelled photos turn into atmospheric still lifes. The art, typically, lands a gut punch.From the Bill Henson portraits at the St Kilda restaurant to Shaun Gladwell s beautiful video artworks at Citta, Di Stasio doesn t use pieces to decorate but to provoke. On entry, a bronze cast of Di Stasio s hands jutt out of the wall, immortalised in the sign of the bull – equal parts a rock star welcome and a warning. A trio of powerful works by Kamilaroi artist Reko Rennie, titled Genesis, goes straight for the jugular of unceded sovereignty.The quality and craftsmanship is on full show. The waiters  signature white tunics are of loosely rumpled linen here versus the crisp whites of the city. The thick galleria walls of the restaurant s three distinct areas are cast in gentle neon so that even your worst wine-fuelled photos turn into atmospheric still lifes. The art, typically, lands a gut punch.From the Bill Henson portraits at the St Kilda restaurant to Shaun Gladwell s beautiful video artworks at Citta, Di Stasio doesn t use pieces to decorate but to provoke. On entry, a bronze cast of Di Stasio s hands jutt out of the wall, immortalised in the sign of the bull – equal parts a rock star welcome and a warning. A trio of powerful works by Kamilaroi artist Reko Rennie, titled Genesis, goes straight for the jugular of unceded sovereignty.The quality and craftsmanship is on full show. The waiters  signature white tunics are of loosely rumpled linen here versus the crisp whites of the city. The thick galleria walls of the restaurant s three distinct areas are cast in gentle neon so that even your worst wine-fuelled photos turn into atmospheric still lifes. The art, typically, lands a gut punch.From the Bill Henson portraits at the St Kilda restaurant to Shaun Gladwell s beautiful video artworks at Citta, Di Stasio doesn t use pieces to decorate but to provoke. On entry, a bronze cast of Di Stasio s hands jutt out of the wall, immortalised in the sign of the bull – equal parts a rock star welcome and a warning. A trio of powerful works by Kamilaroi artist Reko Rennie, titled Genesis, goes straight for the jugular of unceded sovereignty.",
+          "price": 21,
+          "stars": 5,
+          "img": "https://afzalmao.com/img/gallery/3.jpg",
+          "location": "Icefields, Alberta",
+          "created_at": "2021-11-17 10:10:43",
+          "updated_at": "2022-05-16 11:49:07",
+          "type_id": 2
+      },
+      {
+          "id": 6,
+          "name": "Tikka",
+          "description": "The quality and craftsmanship is on full show. The waiters  signature white tunics are of loosely rumpled linen here versus the crisp whites of the city. The thick galleria walls of the restaurant s three distinct areas are cast in gentle neon so that even your worst wine-fuelled photos turn into atmospheric still lifes. The art, typically, lands a gut punch.From the Bill Henson portraits at the St Kilda restaurant to Shaun Gladwell s beautiful video artworks at Citta, Di Stasio doesn t use pieces to decorate but to provoke. On entry, a bronze cast of Di Stasio s hands jutt out of the wall, immortalised in the sign of the bull – equal parts a rock star welcome and a warning. A trio of powerful works by Kamilaroi artist Reko Rennie, titled Genesis, goes straight for the jugular of unceded sovereignty.",
+          "price": 18,
+          "stars": 4,
+          "img": "https://afzalmao.com/img/gallery/13.jpg",
+          "location": "china",
+          "created_at": "2021-12-23 15:03:24",
+          "updated_at": "2022-01-21 10:28:04",
+          "type_id": 2
+      },
+      {
+          "id": 7,
+          "name": "Rabdi",
+          "description": "The quality and craftsmanship is on full show. The waiters  signature white tunics are of loosely rumpled linen here versus the crisp whites of the city. The thick galleria walls of the restaurant s three distinct areas are cast in gentle neon so that even your worst wine-fuelled photos turn into atmospheric still lifes. The art, typically, lands a gut punch.From the Bill Henson portraits at the St Kilda restaurant to Shaun Gladwell s beautiful video artworks at Citta, Di Stasio doesn t use pieces to decorate but to provoke. On entry, a bronze cast of Di Stasio s hands jutt out of the wall, immortalised in the sign of the bull – equal parts a rock star welcome and a warning. A trio of powerful works by Kamilaroi artist Reko Rennie, titled Genesis, goes straight for the jugular of unceded sovereignty.",
+          "price": 10,
+          "stars": 5,
+          "img": "https://afzalmao.com/img/gallery/9.jpg",
+          "location": "Cuba",
+          "created_at": "2021-12-23 15:04:49",
+          "updated_at": "2022-01-01 08:56:45",
+          "type_id": 2
+      },
+      {
+          "id": 10,
+          "name": "Kabab",
+          "description": "Chicken Biryani Served in a Bowl Close Up Photo. Indian Food, Indian Style Rice and Chicken. #Biryani #ChickenBiryani #IndianFood #StockPhoto",
+          "price": 12,
+          "stars": 4,
+          "img": "https://afzalmao.com/img/gallery/7.jpg",
+          "location": "china",
+          "created_at": "2021-12-27 06:29:47",
+          "updated_at": "2022-01-01 08:56:33",
+          "type_id": 2
+      },
+      {
+          "id": 11,
+          "name": "Prawns kepsa",
+          "description": "Ilish Mach aka Hilsa fish is in the season and needless to say, I cooked it a few times this year as well. This year, however, I have used Ilish mach to make simple delicacies mostly. Ilish Beguner Jhol is probably the simplest of the lot, well, after Ilish Mach Bhaja.Ilish Mach aka Hilsa fish is in the season and needless to say, I cooked it a few times this year as well. This year, however, I have used Ilish mach to make simple delicacies mostly. Ilish Beguner Jhol is probably the simplest of the lot, well, after Ilish Mach Bhaja.Ilish Mach aka Hilsa fish is in the season and needless to say, I cooked it a few times this year as well. This year, however, I have used Ilish mach to make simple delicacies mostly. Ilish Beguner Jhol is probably the simplest of the lot, well, after Ilish Mach Bhaja.",
+          "price": 12,
+          "stars": 5,
+          "img": "images/1343ce6cf6792383dfc071727afd5c46.jpeg",
+          "location": "china",
+          "created_at": "2021-12-27 06:35:34",
+          "updated_at": "2022-01-01 08:56:22",
+          "type_id": 2
+      }
+  ]
+}
