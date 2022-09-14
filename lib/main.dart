@@ -1,6 +1,8 @@
 import 'package:afzal_mao/controllers/cart_controller.dart';
 import 'package:afzal_mao/controllers/popular_product_controller.dart';
 import 'package:afzal_mao/controllers/recommended_product_controller.dart';
+import 'package:afzal_mao/pages/auth/sign_in_page.dart';
+import 'package:afzal_mao/pages/auth/sign_up_page.dart';
 import 'package:afzal_mao/pages/cart/cart_page.dart';
 import 'package:afzal_mao/pages/food/popular_food_detail.dart';
 import 'package:afzal_mao/pages/food/recommended_food_detail.dart';
@@ -29,6 +31,7 @@ Get.find<CartController>().getCartData();
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
+          //home:SignInPage(),
           //home: SplashScreen(),
           initialRoute: RouteHelper.getSplashPage(),
           getPages: RouteHelper.routes,
