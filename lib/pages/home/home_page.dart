@@ -5,6 +5,7 @@ import 'package:afzal_mao/utils/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../auth/sign_in_page.dart';
 import '../cart/cart_history.dart';
 //import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
@@ -22,7 +23,8 @@ class _HomePageState extends State<HomePage> {
 
   List pages=[
     MainFoodPage(),
-    SignUpPage(),
+    Container(child: Text("History page"),),
+   // SignInPage(),
     CartHistory(),
     AccountPage(),
   ];

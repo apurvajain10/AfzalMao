@@ -28,12 +28,13 @@ class MyApp extends StatelessWidget {
 Get.find<CartController>().getCartData();
    return GetBuilder<PopularProductController>(builder: (_){
       return GetBuilder<RecommendedProductController>(builder: (_){
-        return GetMaterialApp(
+        return  GetMaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
+          //home:SignUpPage(),
           //home:SignInPage(),
           //home: SplashScreen(),
-          initialRoute: RouteHelper.getSplashPage(),
+         initialRoute: RouteHelper.getSplashPage(),
           getPages: RouteHelper.routes,
         );
       });
