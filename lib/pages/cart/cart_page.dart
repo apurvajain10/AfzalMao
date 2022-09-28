@@ -1,4 +1,5 @@
 import 'package:afzal_mao/base/no_data_page.dart';
+import 'package:afzal_mao/controllers/auth_controller.dart';
 import 'package:afzal_mao/controllers/cart_controller.dart';
 import 'package:afzal_mao/controllers/popular_product_controller.dart';
 import 'package:afzal_mao/pages/home/main_food_page.dart';
@@ -208,8 +209,13 @@ class CartPage extends StatelessWidget {
               GestureDetector(
                 onTap: (){
                   // popularProduct.addItem(product);
-                  cartController.addTohistory();
-                },
+                  if(Get.find<AuthController>().userLoggedIn()) {
+                    cartController.addTohistory();
+                            }
+                  else{
+                    Get.toNamed(RouteHelper.getSignInPage());
+                  }
+                          },
                 child: Container(
                   padding: EdgeInsets.only(top: Dimensions.height20, bottom: Dimensions.height20, left: Dimensions.width20, right: Dimensions.width20),
 
